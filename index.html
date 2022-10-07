@@ -8,6 +8,8 @@
     <title>NucbaZappi</title>
     <link rel="stylesheet" href="/assets/styles.css">
     <link rel="stylesheet" href="/assets/mediaqueris.css">
+    <link rel="stylesheet" href="/assets/transitions.css">
+    <link rel="icon" href="/assets/images/logo.png" type="image">
 </head>
 
 <body>
@@ -15,10 +17,12 @@
         <nav>
             <img src="/assets/images/logo.png" alt="Logo Nucbazappi">
             <ul class="nav-ul">
-                <li class="li-home"><a href="#hero"><img src="/assets/icons/Home.png"
+                <li class="li-home li-transicion"><a href="#hero"><img src="/assets/icons/Home.png"
                             alt="Home icon"><span>Home</span></a></li>
-                <li><a href="#"><img src="/assets/icons/Icon Cart.png" alt="Cart Icon"></a></li>
-                <li><a href="#"><img src="/assets/icons/Profile.png" alt="Profile Icon"></a></li>
+                <li class="li-transicion"><a href="#"><img src="/assets/icons/Icon Cart.png" alt="Cart Icon"></a>
+                </li>
+                <li class="li-transicion"><a href="#"><img src="/assets/icons/Profile.png" alt="Profile Icon"></a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -27,79 +31,81 @@
             <div class="hero-title">
                 <h1>Si tenes Zappi, <span>tenes nucba.</span></h1>
                 <p>Buscá lo que quieras y nucba te quedes sin comida.</p>
-                <button>VER MÁS</button>
+                <button class="boton-transicion">VER MÁS</button>
             </div>
-            <div class="hero-img">
-                <img src="/assets/images/hero-izq.png" alt="Pizza hero izquierda" class="imagen-izquierda">
-                <img src="/assets/images/hero-der.png" alt="Pizza hero derecha" class="imagen-derecha">
+            <div class=" hero-img">
+                <img src="/assets/images/hero-izq.png" alt="Pizza hero izquierda"
+                    class="imagen-izquierda imagen-pizza-transicion">
+                <img src="/assets/images/hero-der.png" alt="Pizza hero derecha"
+                    class="imagen-derecha imagen-pizza-transicion">
             </div>
         </section>
         <section class="recomendados">
             <h3>Hoy te recomendamos</h3>
             <div class="cards-recomendados">
-                <div class="card-recomendada">
+                <div class="card-recomendada card-transicion">
                     <img src="/assets/images/recomendado-img1.png" alt="Card recomendada 1">
                     <div class="recomendada-info">
                         <p class="tipo-pizza">Bennazianna</p>
                         <p class="pizza-descripcion">La más completa</p>
                         <p class="precio">$ 3650</p>
                     </div>
-                    <button class="boton">Agregar</button>
+                    <button class="boton boton-transicion">Agregar</button>
                 </div>
-                <div class="card-recomendada">
+                <div class="card-recomendada card-transicion">
                     <img src="/assets/images/recomendada-img2.png" alt="Card recomendada 2">
                     <div class="recomendada-info">
                         <p class="tipo-pizza">Tronco-Pizza</p>
                         <p class="pizza-descripcion">Para todo el día</p>
                         <p class="precio">$ 870</p>
                     </div>
-                    <button class="boton">Agregar</button>
+                    <button class="boton boton-transicion">Agregar</button>
                 </div>
-                <div class="card-recomendada">
+                <div class="card-recomendada card-transicion">
                     <img src="/assets/images/recomendada-img3.png" alt="Card recomendada 3">
                     <div class="recomendada-info">
                         <p class="tipo-pizza">Papas | Provenzal</p>
                         <p class="pizza-descripcion">Van como piña</p>
                         <p class="precio">$ 360</p>
                     </div>
-                    <button class="boton">Agregar</button>
+                    <button class="boton boton-transicion">Agregar</button>
                 </div>
             </div>
         </section>
         <section class="categorias">
             <h3>Categorías</h3>
             <div class="cards-categorias">
-                <div class="card-cat">
+                <div class="card-cat card-transicion">
                     <img src="/assets/images/categoria-1.png" alt="">
                     <p>Pizzas</p>
                     <div class="gradiente"></div>
                 </div>
-                <div class="card-cat">
+                <div class="card-cat card-transicion">
                     <img src="/assets/images/categoria-2.png" alt="">
                     <p>Hamburguesas</p>
                     <div class="gradiente"></div>
                 </div>
-                <div class="card-cat">
+                <div class="card-cat card-transicion">
                     <img src="/assets/images/categoria-3.png" alt="">
                     <p>Napapuki</p>
                     <div class="gradiente"></div>
                 </div>
-                <div class="card-cat">
+                <div class="card-cat card-transicion">
                     <img src="/assets/images/categoria-4.png" alt="">
                     <p>Individuales</p>
                     <div class="gradiente"></div>
                 </div>
-                <div class="card-cat">
+                <div class="card-cat card-transicion">
                     <img src="/assets/images/categoria-5.png" alt="">
                     <p>Wraps</p>
                     <div class="gradiente"></div>
                 </div>
-                <div class="card-cat">
+                <div class="card-cat card-transicion">
                     <img src="/assets/images/categoria-6.png" alt="">
                     <p>Mexican Food</p>
                     <div class="gradiente"></div>
                 </div>
-                <div class="card-cat">
+                <div class="card-cat card-transicion">
                     <img src="/assets/images/categoria-7.png" alt="">
                     <p>Batidukis</p>
                     <div class="gradiente"></div>
@@ -109,7 +115,7 @@
         <section class="populares">
             <h3>Los más populares</h3>
             <div class="cards-populares">
-                <div class="card-popular">
+                <div class="card-popular card-transicion">
                     <img src="/assets/images/Photo Menu-0.png" alt="Popular 1">
                     <div class="card-info">
                         <p class="tipo-pizza">La Mr. Pit</p>
@@ -117,10 +123,10 @@
                     </div>
                     <div class="precio-y-button">
                         <p class="precio">$ 350</p>
-                        <button class="boton">Agregar</button>
+                        <button class="boton boton-transicion">Agregar</button>
                     </div>
                 </div>
-                <div class="card-popular">
+                <div class="card-popular card-transicion">
                     <img src="/assets/images/Photo Menu-1.png" alt="Popular 2">
                     <div class="card-info">
                         <p class="tipo-pizza">¡Q' Jamone!</p>
@@ -128,10 +134,10 @@
                     </div>
                     <div class="precio-y-button">
                         <p class="precio">$ 350</p>
-                        <button class="boton">Agregar</button>
+                        <button class="boton boton-transicion">Agregar</button>
                     </div>
                 </div>
-                <div class="card-popular">
+                <div class="card-popular card-transicion">
                     <img src="/assets/images/Photo Menu-2.png" alt="Popular 3">
                     <div class="card-info">
                         <p class="tipo-pizza">La Charly García</p>
@@ -139,10 +145,10 @@
                     </div>
                     <div class="precio-y-button">
                         <p class="precio">$ 380</p>
-                        <button class="boton">Agregar</button>
+                        <button class="boton boton-transicion">Agregar</button>
                     </div>
                 </div>
-                <div class="card-popular">
+                <div class="card-popular card-transicion">
                     <img src="/assets/images/Photo Menu-3.png" alt="Popular 4">
                     <div class="card-info">
                         <p class="tipo-pizza">La Maradona</p>
@@ -150,10 +156,10 @@
                     </div>
                     <div class="precio-y-button">
                         <p class="precio">$ 450</p>
-                        <button class="boton">Agregar</button>
+                        <button class="boton boton-transicion">Agregar</button>
                     </div>
                 </div>
-                <div class="card-popular">
+                <div class="card-popular card-transicion">
                     <img src="/assets/images/Photo Menu-4.png" alt="Popular 5">
                     <div class="card-info">
                         <p class="tipo-pizza">Picantovich</p>
@@ -161,10 +167,10 @@
                     </div>
                     <div class="precio-y-button">
                         <p class="precio">$ 750</p>
-                        <button class="boton">Agregar</button>
+                        <button class="boton boton-transicion">Agregar</button>
                     </div>
                 </div>
-                <div class="card-popular">
+                <div class="card-popular card-transicion">
                     <img src="/assets/images/Photo Menu-5.png" alt="Popular 6">
                     <div class="card-info">
                         <p class="tipo-pizza">La Hasbulla</p>
@@ -172,10 +178,10 @@
                     </div>
                     <div class="precio-y-button">
                         <p class="precio">$ 990</p>
-                        <button class="boton">Agregar</button>
+                        <button class="boton boton-transicion">Agregar</button>
                     </div>
                 </div>
-                <div class="card-popular">
+                <div class="card-popular card-transicion">
                     <img src="/assets/images/Photo Menu-6.png" alt="Popular 7">
                     <div class="card-info">
                         <p class="tipo-pizza">Leo Messi</p>
@@ -183,10 +189,10 @@
                     </div>
                     <div class="precio-y-button">
                         <p class="precio">$ 10</p>
-                        <button class="boton">Agregar</button>
+                        <button class="boton boton-transicion">Agregar</button>
                     </div>
                 </div>
-                <div class="card-popular">
+                <div class="card-popular card-transicion">
                     <img src="/assets/images/Photo Menu-7.png" alt="Popular 8">
                     <div class="card-info">
                         <p class="tipo-pizza">Nick Gi</p>
@@ -194,7 +200,7 @@
                     </div>
                     <div class="precio-y-button">
                         <p class="precio">$ Gratis</p>
-                        <button class="boton">Agregar</button>
+                        <button class="boton boton-transicion">Agregar</button>
                     </div>
                 </div>
             </div>
@@ -205,9 +211,9 @@
             <a href="#hero"><img src="/assets/images/logo.png" alt="Logo footer"> NucbaZappi</a>
         </div>
         <div class="footer-info">
-            <a href="#">Términos de Uso</a>
-            <a href="#">Trabajá con nosotros</a>
-            <a href="#">Soporte</a>
+            <a href="#" class="li-transicion">Términos de Uso</a>
+            <a href="#" class="li-transicion">Trabajá con nosotros</a>
+            <a href="#" class="li-transicion">Soporte</a>
         </div>
     </footer>
 </body>

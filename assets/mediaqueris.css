@@ -58,6 +58,9 @@
     .imagen-derecha{
         display: none;
     }
+    .imagen-izquierda{
+        z-index: 100;
+    }
 }
 @media (max-width:768px) {
     footer{

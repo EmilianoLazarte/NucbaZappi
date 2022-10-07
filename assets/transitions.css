@@ -1,0 +1,30 @@
+
+.boton-transicion{
+    transition: all 0.3s ease-in-out;
+}
+.boton-transicion:hover{
+    transform: scale(1.1,1.07);
+    transition: all 0.3s ease-in-out;
+}
+.imagen-pizza-transicion{
+    transition: all 1s ease-in-out;
+}
+.imagen-pizza-transicion:hover{
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out;
+}
+
+.li-transicion{
+    transition: all 0.3s ease-in-out;
+}
+.li-transicion:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+.card-transicion{
+    transition: all 0.3s ease-in-out;
+}
+.card-transicion:hover{
+    transform: scale(1.1,1.07);
+    transition: all 0.3s ease-in-out;
+}
