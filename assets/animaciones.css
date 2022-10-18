@@ -1,4 +1,7 @@
-
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
 .boton-transicion{
     transition: all 0.3s ease-in-out;
 }

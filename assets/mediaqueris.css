@@ -10,10 +10,6 @@
     #hero{
         justify-content: flex-start;
     }
-    nav{
-        min-width: unset;
-        width: 90%;
-    }
     main{
         min-width: unset;
         margin-top: 120px;
@@ -25,6 +21,9 @@
         height: 270px;
         bottom: 30px;
         left: 30px;
+    }
+    .cart{
+        right: 0px;
     }
 }
 @media (max-width:1035px) {
@@ -70,6 +69,11 @@
     .imagen-izquierda{
         left: 20px;
     }
+    .recomendados h3,
+    .categorias h3,
+    .populares h3{
+         text-align: center;
+    }
 }
 @media (max-width:660px) {
     .card-popular{
@@ -79,6 +83,11 @@
         width: 275px;
         height: 97px;
     }
+    .hero-title{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
 }
 @media (max-width:622px) {
     .hero-img{
@@ -86,13 +95,15 @@
     }
     .hero-title{
         min-width: unset;
-        width: 100%;
+        width: 90%;
+        align-items: center;
+        text-align: center;
     }
     .nav-ul{
         gap: 30px;
     }
 }
-@media (max-width:430px) {
+@media (max-width:480px) {
     .hero-title h1{
         font-size: 45px;
     }
@@ -103,12 +114,24 @@
         display: none;
     }
     header{
-        height: 80px;
+        height: 75px;
     }
     nav > img{
-        width: 65px;
+        width: 55px;
     }
     #hero{
-        margin-top: 0px;
+        margin-top: -20px;
+        width: 90%;
+    }
+    .cart{
+        top: 70px;
+    }
+    .hero-title{
+        width: 100%;
+    }
+}
+@media (max-width:390px) {
+    #hero{
+        width: 95%;
     }
 }

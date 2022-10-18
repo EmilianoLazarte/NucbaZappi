@@ -8,7 +8,7 @@
     <title>NucbaZappi</title>
     <link rel="stylesheet" href="/assets/styles.css">
     <link rel="stylesheet" href="/assets/mediaqueris.css">
-    <link rel="stylesheet" href="/assets/transitions.css">
+    <link rel="stylesheet" href="/assets/animaciones.css">
     <link rel="icon" href="/assets/images/logo.png" type="image">
 </head>
 
@@ -19,8 +19,59 @@
             <ul class="nav-ul">
                 <li class="li-home li-transicion"><a href="#hero"><img src="/assets/icons/Home.png"
                             alt="Home icon"><span>Home</span></a></li>
-                <li class="li-transicion"><a href="#"><img src="/assets/icons/Icon Cart.png" alt="Cart Icon"></a>
-                </li>
+                <li class="li-transicion"><label for="menu-toggle" class="menu-desplegable">
+                        <img src="/assets/icons/Icon Cart.png" alt="Cart Icon">
+                    </label></li>
+                <input type="checkbox" id="menu-toggle">
+                <div class="cart">
+                    <p>Tu pedido</p>
+                    <div class="cards-recomendados">
+                        <div class="card-recomendada">
+                            <img src="/assets/images/recomendado-img1.png" alt="Card recomendada 1">
+                            <div class="recomendada-info">
+                                <p class="tipo-pizza">Bennazianna</p>
+                                <p class="pizza-descripcion">La más completa</p>
+                                <p class="precio"><span>Subtotal:</span> $ 3650</p>
+                            </div>
+                            <div class="cantidad">
+                                <p>-</p>
+                                <p>1</p>
+                                <p>+</p>
+                            </div>
+                        </div>
+                        <div class="card-recomendada">
+                            <img src="/assets/images/recomendada-img2.png" alt="Card recomendada 2">
+                            <div class="recomendada-info">
+                                <p class="tipo-pizza">Tronco-Pizza</p>
+                                <p class="pizza-descripcion">Para todo el día</p>
+                                <p class="precio"><span>Subtotal:</span> $ 870</p>
+                            </div>
+                            <div class="cantidad">
+                                <p>-</p>
+                                <p>1</p>
+                                <p>+</p>
+                            </div>
+                        </div>
+                        <div class="card-recomendada">
+                            <img src="/assets/images/recomendada-img3.png" alt="Card recomendada 3">
+                            <div class="recomendada-info">
+                                <p class="tipo-pizza">Papas | Provenzal</p>
+                                <p class="pizza-descripcion">Van como piña</p>
+                                <p class="precio"><span>Subtotal:</span> $ 1160</p>
+                            </div>
+                            <div class="cantidad">
+                                <p>-</p>
+                                <p>3</p>
+                                <p>+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="linea-divisoria"></div>
+                    <div class="total">
+                        <p class="total-precio">Total:</p>
+                        <p class="precio">$5680</p>
+                    </div>
+                </div>
                 <li class="li-transicion"><a href="#"><img src="/assets/icons/Profile.png" alt="Profile Icon"></a>
                 </li>
             </ul>
